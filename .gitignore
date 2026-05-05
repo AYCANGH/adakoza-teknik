@@ -1,0 +1,13 @@
+# Dev files
+server.js
+.claude/
+.playwright-mcp/
+
+# Root-level source folders
+/LOGO/
+/MARKALAR/
+
+# Root-level screenshot files
+/*.png
+/*.jpeg
+/*.jpg
