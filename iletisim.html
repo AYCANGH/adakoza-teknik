@@ -7,7 +7,9 @@
   <meta name="description" content="Ada Koza Teknik Hırdavat iletişim bilgileri: Arifbey Mah. Duman Sk. No:20A Arifiye/Sakarya. Tel: 0545 559 54 57. E-posta: bilgi@adakozateknik.com.tr">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"></noscript>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -17,7 +19,7 @@
   <div class="container">
     <div class="header-inner">
       <a href="index.html" class="logo" aria-label="Ada Koza Teknik Hırdavat Ana Sayfa">
-        <img src="assets/images/logo.png" alt="Ada Koza Teknik Hırdavat" width="160" height="52">
+        <picture><source srcset="assets/images/logo.webp" type="image/webp"><img src="assets/images/logo.png" alt="Ada Koza Teknik Hırdavat" width="160" height="52"></picture>
       </a>
       <button class="hamburger" aria-label="Menüyü aç/kapat" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -146,7 +148,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="assets/images/logo.png" alt="Ada Koza Teknik Hırdavat" width="140" height="46">
+        <picture><source srcset="assets/images/logo.webp" type="image/webp"><img src="assets/images/logo.png" alt="Ada Koza Teknik Hırdavat" width="140" height="46"></picture>
         <p>Sakarya Arifiye'de el aletleri, inşaat malzemeleri ve iş güvenliği ekipmanları alanında güvenilir çözüm ortağınız.</p>
       </div>
       <div class="footer-col">

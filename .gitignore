@@ -2,6 +2,9 @@
 server.js
 .claude/
 .playwright-mcp/
+node_modules/
+package.json
+package-lock.json
 
 # Root-level source folders
 /LOGO/
